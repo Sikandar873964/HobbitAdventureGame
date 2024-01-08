@@ -26,5 +26,23 @@ private:
   int health;
   string position;
 
+public:
+  Character() {}
+  Character(string name, int health, string position) {
+    this->name = name;
+    this->health = health;
+    this->position = position;
+  }
+  void setName(string s) { name = s; }
+  string getName() { return name; }
+  void setHP(int h) { health = h; }
+  int getHP() { return health; }
+  void setPosition(string p) { position = p; }
+  string getPosition() { return position; }
 
+  virtual int UseSpecialPower() {
+    cout << "You have no Special Power." << endl;
+    return 0;
+  }
+  ~Character() {}
 };
