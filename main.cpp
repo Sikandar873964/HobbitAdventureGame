@@ -13,6 +13,7 @@ using namespace std;
 
 
 int main() {
-  
+  Story CountingStone;
+  CountingStone.GamePlay();
   return 0;
 }
