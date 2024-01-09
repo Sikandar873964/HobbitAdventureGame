@@ -1,1 +1,5 @@
 # HobbitAdventureGame
+
+Quest for The CountingStone," a text-based adventure game built with C++ and VS Code. Based on the Hobbit Frodo Baggins' adventure, the game showcases advanced programming principles, including pointers, dynamic memory management, and inheritance. The report is divided into chapters: it introduces the game concept, details the Hobbit's voyage in a text-based adventure format, and provides insights into the user's perspective on the gaming experience. 
+
+A fantasy adventure game with various characters and levels. Players engage in different challenges such as a rock-paper-scissors game against a monster, answering riddles, and a guessing game. The game includes characters like a Riddler and Smeagol, each with unique attributes and abilities. The story progresses through stages, each with different tasks and settings. Winning involves strategy, knowledge, and luck. The game's design and interaction mechanisms are driven by the C++ classes defined in the files, which include character behaviors, level designs, and game mechanics.
